@@ -2,9 +2,6 @@
 datasource:
   url: localhost:3306/zrzk
 
-spring:
-  application:
-    name: test # 对外暴露的服务名称
   datasource: # 数据库配置
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://${datasource.url}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
