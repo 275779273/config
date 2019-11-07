@@ -19,18 +19,6 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true # 驼峰命名规范
 
-# 客户端注册进eureka服务列表里
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/,http://127.0.0.1:7003/eureka/
-    healthcheck:
-      enabled: true
-  instance:
-    instance-id: 测试服务-${server.port}-Hystrix  # 人性化显示出服务的信息（带hystrix）
-    prefer-ip-address: true    # 访问路径可显示ip地址
-    lease-renewal-interval-in-seconds: 2
-    lease-expiration-duration-in-seconds: 5
 
 # 使用actuator来展示项目的基本信息
 info:
