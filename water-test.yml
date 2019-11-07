@@ -2,6 +2,7 @@
 datasource:
   url: localhost:3306/zrzk
 
+spring:
   datasource: # 数据库配置
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://${datasource.url}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
