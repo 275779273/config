@@ -26,7 +26,7 @@ info:
   author.name: ${spring.application.name}
   app.name: zrzk
   server.port: ${server.port}
-  application.name: ${spring.application.name}
+  application.name: water01
 
 # 配置hystrix dashboard的url访问
 # 开启指标流端点
