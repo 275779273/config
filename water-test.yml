@@ -36,4 +36,4 @@ management:
       exposure:
         include: hystrix.stream
 
-env: test
+env: test01
